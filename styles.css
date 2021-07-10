@@ -185,6 +185,10 @@ body {
     font-size: 16px;
 }
 
+.section-result h4 {
+    font-size: 20px;
+}
+
 .carousel-videos .card-text {
     font-size: 14px;
 }
