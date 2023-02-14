@@ -9,15 +9,15 @@ body {
 }
 
 .img-background {
-    background-image: url(/images/pic_1.jpg);
+    background-image: url(img/pic_1.jpg);
 }
 
 .img-background-pricing {
-    background-image: url(/images/pic_2.jpg);
+    background-image: url(img/pic_2.jpg);
 }
 
 .img-background-courses {
-    background-image: url(/images/pic_3.jpg);
+    background-image: url(img/pic_3.jpg);
 }
 
 .img-background, .img-background-pricing {

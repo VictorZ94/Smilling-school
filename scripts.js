@@ -48,7 +48,7 @@ function carouselVideos(data) {
                 <div class="card mx-auto d-block"> 
                     <img class="card-img-top position-relative" src="${data.thumb_url}" alt="Card image cap">
                     <div class="card-image position-absolute">
-                        <img src="/images/play.png" alt="" width="64px" height="64px">
+                        <img src="img/play.png" alt="" width="64px" height="64px">
                     </div>
                     <div class="card-body py-3">
                         <h4 class="card-title font-weight-bold color-text">${data.title}</h4>
@@ -76,10 +76,10 @@ function carouselVideos(data) {
         for (let i = 0; i < 5; i++) {
             if (i < data.star) {
                 $('.carousel-videos .carousel-inner .carousel-item:last-child .rating')
-                .append(`<img src="/images/star_on.png" alt="" width="15px" height="15px">`)
+                .append(`<img src="img/star_on.png" alt="" width="15px" height="15px">`)
             } else {
                 $('.carousel-videos .carousel-inner .carousel-item:last-child .rating')
-                .append(`<img src="/images/star_off.png" alt="" width="15px" height="15px">`)
+                .append(`<img src="img/star_off.png" alt="" width="15px" height="15px">`)
             }
         }
 }
@@ -155,7 +155,7 @@ function requestCourses(data) {
             <div class="position-relative">
                 <img class="card-img-top" src="${data.thumb_url}" alt="Card image cap">
                 <div class="card-image position-absolute">
-                    <img src="/images/play.png" alt="" width="64px" height="64px">
+                    <img src="img/play.png" alt="" width="64px" height="64px">
                 </div>
             </div>
             <div class="card-body py-3">
@@ -181,10 +181,10 @@ function requestCourses(data) {
     for (let i = 0; i < 5; i++) {
         if (i < data.star) {
             $('.section-result .listCourses .card:last-child .rating')
-            .append(`<img src="/images/star_on.png" alt="" width="15px" height="15px">`)
+            .append(`<img src="img/star_on.png" alt="" width="15px" height="15px">`)
         } else {
             $('.section-result .listCourses .card:last-child .rating')
-            .append(`<img src="/images/star_off.png" alt="" width="15px" height="15px">`)
+            .append(`<img src="img/star_off.png" alt="" width="15px" height="15px">`)
         }
     }
 }
